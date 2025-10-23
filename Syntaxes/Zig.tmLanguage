@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>zig</string>
+		<string>zon</string>
 	</array>
 	<key>keyEquivalent</key>
 	<string>^~Z</string>

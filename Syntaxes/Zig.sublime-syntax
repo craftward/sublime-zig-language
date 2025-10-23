@@ -4,6 +4,7 @@
 name: Zig
 file_extensions:
   - zig
+  - zon
 scope: source.zig
 contexts:
   main:

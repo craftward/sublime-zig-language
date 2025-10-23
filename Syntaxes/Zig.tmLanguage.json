@@ -1,7 +1,8 @@
 {
     "scopeName": "source.zig",
     "fileTypes": [
-        "zig"
+        "zig",
+        "zon"
     ],
     "uuid": "06C2FF99-3080-441A-9019-460C51E93116",
     "patterns": [

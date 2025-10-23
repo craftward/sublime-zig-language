@@ -6,6 +6,7 @@ uuid: 06C2FF99-3080-441A-9019-460C51E93116
 scopeName: source.zig
 fileTypes:
   - zig
+  - zon
 
 patterns:
   - include: '#dummy_main'
@@ -99,7 +100,7 @@ repository:
             name: punctuation.accessor.zig
           '3':
             name: entity.name.error.zig
-  
+
   constants:
     patterns:
       - name: constant.language.zig
@@ -147,7 +148,7 @@ repository:
           - include: '#character_escapes'
           - name: invalid.illegal.character.zig
             match: \\[^\'][^\']*?
-        
+
       - name: string.quoted.double.zig
         begin: c?\"
         end: \"
@@ -199,7 +200,7 @@ repository:
 
       - name: keyword.operator.other.zig
         match: '(\+\+|\*\*|->|\.\?|\.\*|&(?=[a-zA-Z_]|@\")|\?|\|\||\.{2,3})'
-  
+
   support:
     name: support.function.zig
     match: '(?<!\w)@[^\"\d][a-zA-Z_]\w*\b'
@@ -219,7 +220,7 @@ repository:
         match: '\b(c_short|c_ushort|c_int|c_uint|c_long|c_ulong|c_longlong|c_ulonglong|c_longdouble|c_void)\b'
 
       - match: '\b(anyframe)\b\s*(->)?\s*(?:([a-zA-Z_][\w.]*|@\".+\")\b(?!\s*\())?'
-        captures: 
+        captures:
           '1':
             name: storage.type.zig
           '2':
