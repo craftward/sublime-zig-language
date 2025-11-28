@@ -39,7 +39,7 @@ Install https://github.com/SublimeText/PackageDev.
 Clone or copy this repository to your local Sublime Text folder. e.g.
 
 ```
-git clone https://github.com/ziglang/sublime-zig-language.git "/Users/$USER/Library/Application Support/Sublime Text 3/Packages/Zig Language"
+git clone https://codeberg.org/ziglang/sublime-zig-language.git "/Users/$USER/Library/Application Support/Sublime Text 3/Packages/Zig Language"
 ```
 
 Edit the YAML entry and use the `Convert (YAML, JSON, PList) to...` command
