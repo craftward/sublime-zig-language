@@ -29,7 +29,7 @@ within Sublime Text.
 TextMate Installation
 ---------------------
 
-This language is also compatible with TextMate's `.tmBundle` format. To install in TextMate clone or download this repository. Then rename the repository directory to `Zig.tmBundle` and double-click it to install it into TextMate. However, see [Zig.tmbundle](https://github.com/ziglang/Zig.tmbundle) for dedicated TextMate support.
+This language is also compatible with TextMate's `.tmBundle` format. To install in TextMate clone or download this repository. Then rename the repository directory to `Zig.tmBundle` and double-click it to install it into TextMate.
 
 Local Development
 -----------------
